@@ -1,0 +1,28 @@
+/about
+navbar pour lire la representation d'ecole en video (pause ou lecture)
+utilisation de useEFfect 
+intro(copmonents pure , nombre d'inscription, nombre d'eleve par classe) 
+liste des classes 
+notre activitéutilisation de voir plus
+
+
+
+cycle de vie effects réactifs 
+
+bouton rehefa voaclick dia miova loko 
+ny event dia clickena indraipa / annulena ihany rehefa lickena  toggle 
+
+/event
+selectionena izay classe tiana aloha , de arakarak'izay ny event aseho 
+utilisation de contexte sur la liste des responsible
+
+/contact
+ORDER= liste classe ohatra , ny classe tsirairay de manana id , manana fichier d'inscription 
+rehefa voaclicke ny order dia miverina any @ / about no sady misy alert na succé na tsia 
+ORDER(id, fichier d'inscription,nombre d'etudiant)
+rèagir à la saisie avec un état 
+
+/admin responsible 
+
+installation de tailwind css 
+

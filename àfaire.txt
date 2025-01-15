@@ -1,0 +1,15 @@
+styles avec tailwindcss de activity , classroom, event, review , 
+
+useRef= carrousel liste anah responsible 
+
+video  de representation de  l'école (pause ou lecture)
+
+template d'intro contact
+
+selection de event par classe HOMEEVENTFEATURESCONTACT
+Search .... 
+
+
+Intro
+
+order, review
