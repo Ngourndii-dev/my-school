@@ -12,7 +12,7 @@ const data ={
             "playing-number": 22,
             "rent": "15000"
         },
-        {
+        { 
             "id": 3,
             "activity-name": "basketball",
             "playing-number": 10,

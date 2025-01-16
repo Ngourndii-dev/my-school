@@ -10,7 +10,7 @@ const data={
                 "fichier d'inscription": "quatre.pdf",
                 "count" :3
             },
-            {
+            { 
                 "id": 2,
                 "fichier d'inscription": "trois.pdf",
                 "count" :3

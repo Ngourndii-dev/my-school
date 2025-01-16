@@ -1,18 +1,32 @@
-import React from 'react'
-import ecole from "../assets/ecole.jpg";
-export default function Company() {
+import people from '../data/responsible'
+export default function company() {
   return (
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-        <div class="md:flex shadow-2xl">
-            <div class="md:shrink-0">
-            <img class="h-48 w-full object-cover md:h-full md:w-48" src={ecole} alt="Modern building architecture" />
-            </div>
-            <div class="p-8">
-            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
-            <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
-            <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
-            </div>
+    <div className="bg-white py-24 sm:py-32">
+      <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
+        <div className="max-w-xl">
+          <h2 className="text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
+            Leadership at a prestigious Institution
+          </h2>
+          <p className="mt-6 text-lg/8 text-gray-600">
+            ...shape the academic environment , ensuring axcellence and innovation . 
+            THrough strategic guidance , the leadership team fosters a culture of success ,
+            empowering students and faculty alike
+          </p>
         </div>
+        <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          {people.responsibleData.map((person) => (
+            <li key={person.id}>
+              <div className="flex items-center gap-x-6">
+                <img alt="" src={person.image} className="size-16 rounded-full" />
+                <div>
+                  <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">{person.fullname}</h3>
+                  <p className="text-sm/6 font-semibold text-indigo-600">{person.role}</p>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }

@@ -40,7 +40,10 @@ export default function Intro() {
           <button type="button" class="text-white text-sm leading-6 font-medium py-2 px-3 rounded-lg bg-sky-500 hover:bg-sky-700">Contact us </button>
         </div>
         <p class="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-700">
-          This sunny and spacious room is for those traveling light and looking for a comfy and cosy place to lay their head for a night or two. This beach house sits in a vibrant neighborhood littered with cafes, pubs, restaurants and supermarkets and is close to all the major attractions such as Edinburgh Castle and Arthur's Seat.
+             The apartements in our large school offer a modern , comfortable setting, ideal
+             for promoting concentration and student well-being
+             Spacious and well equipped, the apartments are designed to provide a pleasant an
+             environement conductive to study and relaxation
         </p>
     </div>
   </main>

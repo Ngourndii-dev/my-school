@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import data from '../data/classroom';
+import { BiSearch } from 'react-icons/bi';
 
 export default function ClassRoom() {
     const [filter,setFilter]=useState('');
@@ -15,7 +16,17 @@ export default function ClassRoom() {
     <div>
         <div>
             <label>Search</label>
-            <input type="text" value={filter} onChange={searchText.bind(this)}/>
+            <div className="relative mx-auto max-w-md w-full">
+            <input
+              type="text"
+              className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="Rechercher..."
+              value={filter} onChange={searchText.bind(this)}
+            />
+              <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white px-2 py-1 rounded-md hover:bg-blue-600 transition duration-300 ease-in-out">
+              <BiSearch />
+            </button>
+          </div>
         </div>
         <div>
             {dataSearch.map((item,index)=>{
