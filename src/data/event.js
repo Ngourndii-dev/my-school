@@ -1,11 +1,17 @@
+import aevent from "../assets/event1.png"
+import bevent from "../assets/event2.png"
+import cevent from "../assets/event3.png"
+import devent from "../assets/event4.png"
+import eevent from "../assets/event5.png"
+import fevent from "../assets/event6.png"
 const data={
-    eventData: [
+    eventData: [ 
         {
             "id": 1,
             "title": "school day",
             "mission": "reforestation",
             "location": "tsiribihina",
-            "image": "https://images.app.goo.gl/4zRKTwNvsgYhS1D39",
+            "image": aevent,
             "view": 2,
             "react": 4,
             "description": "classe de cinquième"
@@ -15,7 +21,7 @@ const data={
             "title": "sports day",
             "mission": "sports competition",
             "location": "antananarivo",
-            "image": "https://images.app.goo.gl/UbwMixZykcv5W1kU7",
+            "image": bevent,
             "view": 10,
             "react": 15,
             "description": "classe de cinquième"
@@ -25,7 +31,7 @@ const data={
             "title": "science fair",
             "mission": "showcasing student projects",
             "location": "toamasina",
-            "image": "https://images.app.goo.gl/u1PQCGsnvJBR6YjRA",
+            "image": cevent,
             "view": 8,
             "react": 20,
             "description": "classe de cinquième"
@@ -35,7 +41,7 @@ const data={
             "title": "cultural festival",
             "mission": "celebrating local traditions",
             "location": "mahajanga",
-            "image": "https://images.app.goo.gl/Yk9tJ5ZPF1rRJV3E8",
+            "image": devent,
             "view": 5,
             "react": 12,
             "description": "classe de cinquième"
@@ -45,7 +51,7 @@ const data={
             "title": "environmental awareness campaign",
             "mission": "cleaning the community",
             "location": "antsirabe",
-            "image": "https://images.app.goo.gl/utvFhVy8kuDuxohu5",
+            "image": eevent,
             "view": 3,
             "react": 7,
             "description": "classe de cinquième"
@@ -55,7 +61,7 @@ const data={
             "title": "reading marathon",
             "mission": "promote reading habits",
             "location": "nosy be",
-            "image": "https://images.app.goo.gl/Rxc2ktxuin6C4bKT6",
+            "image": fevent,
             "view": 12,
             "react": 30,
             "description": "classe de cinquième"

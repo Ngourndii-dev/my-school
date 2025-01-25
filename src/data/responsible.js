@@ -1,3 +1,9 @@
+import aperson from "../assets/person1.png"
+import bperson from "../assets/person2.png"
+import cperson from "../assets/person3.png"
+import dperson from "../assets/person4.png"
+import eperson from "../assets/person5.png"
+import fperson from "../assets/person6.png"
 const data={
     responsibleData: [
         {
@@ -5,15 +11,15 @@ const data={
             "fullname": "maminiaina",
             "birthdate": "2024-12-12",
             "role": "principal",
-            "image":"https://images.app.goo.gl/LXmcMRRJYzWyBh65A",
+            "image":aperson,
             "sex": "male"
-        }, 
+        },  
         {
             "id": 2,
             "fullname": "maminiaina",
             "birthdate": "2024-12-12",
             "role": "teacher",
-            "image":"https://images.app.goo.gl/fDGadx5bTTSZsdEg7",
+            "image":bperson,
             "sex": "female"
         },
         {
@@ -21,7 +27,7 @@ const data={
             "fullname": "randriamanantena",
             "birthdate": "1990-08-15",
             "role": "teacher",
-            "image":"https://images.app.goo.gl/TP3PvYYPHhBo5HBc8",
+            "image":cperson,
             "sex": "female"
         },
         {
@@ -29,7 +35,7 @@ const data={
             "fullname": "rajaonarivelo",
             "birthdate": "1985-03-21",
             "role": "vice principal",
-            "image":"https://images.app.goo.gl/RNkrfTxoN6YU7zzq5",
+            "image":dperson,
             "sex": "male"
         },
         {
@@ -37,7 +43,7 @@ const data={
             "fullname": "rahonjarison",
             "birthdate": "1992-11-04",
             "role": "nurse",
-            "image":"https://images.app.goo.gl/yjRW2nJdCKRVG14W7",
+            "image":eperson,
             "sex": "female"
         },
         {
@@ -45,7 +51,7 @@ const data={
             "fullname": "ranjanirina",
             "birthdate": "1998-09-23",
             "role": "teacher",
-            "image": "https://images.app.goo.gl/Jvj19BBQ681irqBs7",
+            "image":fperson,
             "sex": "male"
         }
     ]
