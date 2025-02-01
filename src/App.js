@@ -7,15 +7,15 @@ import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 
 export default function App() {
-  return (
-    <div class="container mx-auto px-4">
-      <Navbar />
-      <Intro />
-      <Event />
-      <ClassRoom />
-      <Company />
-      <Contact />
-      <Footer />
-    </div>
-  )
+    return ( 
+        <div class = "container mx-auto px-6" >
+            <Navbar / >
+            <Intro / >
+            <Event / >
+            <ClassRoom / >
+            <Company / >
+            <Contact / >
+            <Footer / >
+        </div>
+    )
 }
