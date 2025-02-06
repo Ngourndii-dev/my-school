@@ -5,7 +5,7 @@ import { ChevronDownIcon, SunIcon, MoonIcon } from "@heroicons/react/16/solid";
 import { Field, Label, Switch } from "@headlessui/react";
 
 export default function Contact() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
   const [agreed, setAgreed] = useState(false);
   const [formState, setFormState] = useState({
     firstName: "",

@@ -14,7 +14,7 @@ const data={
             "image": aevent,
             "view": 2,
             "react": 4,
-            "description": "classe de cinquième"
+            "description": "6th class"
         }, 
         {
             "id": 2,
@@ -24,7 +24,7 @@ const data={
             "image": bevent,
             "view": 10,
             "react": 15,
-            "description": "classe de cinquième"
+            "description": "10th class"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@ const data={
             "image": cevent,
             "view": 8,
             "react": 20,
-            "description": "classe de cinquième"
+            "description": "12th class"
         },
         {
             "id": 4,
@@ -44,7 +44,7 @@ const data={
             "image": devent,
             "view": 5,
             "react": 12,
-            "description": "classe de cinquième"
+            "description": "3rd class"
         },
         {
             "id": 5,
@@ -54,7 +54,7 @@ const data={
             "image": eevent,
             "view": 3,
             "react": 7,
-            "description": "classe de cinquième"
+            "description": "11th class"
         },
         {
             "id": 6,
@@ -64,7 +64,7 @@ const data={
             "image": fevent,
             "view": 12,
             "react": 30,
-            "description": "classe de cinquième"
+            "description": "9th class"
         }
     ]   
 }
