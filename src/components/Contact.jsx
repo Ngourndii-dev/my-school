@@ -28,7 +28,7 @@ export default function Contact() {
   const isDark = theme === "dark";
 
   return (
-    <div className={`${isDark ? "bg-gray-800 text-white" : "bg-white text-black"} min-h-screen py-2 px-4 sm:px-6`}>
+    <div className={`${isDark ? "bg-gray-800 text-white" : "bg-white text-black"} min-h-screen py-2 px-4 sm:px-6`} id="contact">
        <div className="max-w-lg mx-auto px-4 sm:px-4">
       <div className="flex justify-end mb-4">
           <button

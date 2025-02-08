@@ -3,12 +3,12 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import logo from "../assets/P.png"
 const navigation = [
-  { name: 'HOME', href: '#' },
-  { name: 'EVENT', href: '#' },
-  { name: 'CONTACT', href: '#' },
-  { name: 'COMPANY', href: '#' },
+  { name: 'HOME', href: '#about' },
+  { name: 'EVENT', href: '#event' },
+  { name: 'CONTACT', href: '#contact' },
+  { name: 'COMPANY', href: '#company' },
 ]
 
 export default function Navbar() {
@@ -16,17 +16,17 @@ export default function Navbar() {
 
   return (
     <div className="bg-white">
-      {/* Navbar fixe en haut de la page */}
       <header className="fixed inset-x-0 top-0 z-50 bg-white shadow-sm">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Your School</span>
               <img
-                alt=""
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
+                alt="Logo"
+                src={logo}
+                className="h-10 w-auto rounded-full shadow-lg transform transition-all hover:scale-105"
               />
+
             </a>
           </div>
           <div className="flex lg:hidden">

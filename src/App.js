@@ -1,3 +1,4 @@
+import './App.css'
 import ClassRoom from "./components/ClassRoom";
 import Company from "./components/Company";
 import Event from "./components/Event";

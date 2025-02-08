@@ -17,7 +17,7 @@ export default function Event() {
     );
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4" id='event'>
             <section>
                 <div className="relative mx-auto max-w-md w-full mb-6">
                     <input
